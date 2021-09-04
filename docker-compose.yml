@@ -16,7 +16,7 @@ services:
         working_dir: /var/www
         volumes:
             - ./:/var/www
-            - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+            - ./deployment/php/local.ini:/usr/local/etc/php/conf.d/local.ini
         networks:
             - app-network
 
@@ -27,11 +27,11 @@ services:
         restart: unless-stopped
         tty: true
         ports:
-            - "8000:80"
+            - "8001:80"
             - "443:443"
         volumes:
             - ./:/var/www
-            - ./nginx/conf.d/:/etc/nginx/conf.d/
+            - ./deployment/nginx/conf.d/:/etc/nginx/conf.d/
         networks:
             - app-network
 
@@ -45,12 +45,12 @@ services:
             - "3309:3309"
         environment:
             MYSQL_DATABASE: alumni
-            MYSQL_ROOT_PASSWORD: Mamang_Sekayu.97
+            MYSQL_ROOT_PASSWORD: mamangsekayu97
             SERVICE_TAGS: dev
             SERVICE_NAME: mysql
         volumes:
             - dbdata:/var/lib/mysql
-            - ./mysql/my.cnf:/etc/mysql/my.cnf
+            - ./deployment/mysql/my.cnf:/etc/mysql/my.cnf
         networks:
             - app-network
 
