@@ -6,9 +6,9 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-about mt-40">
                         <div class="logo">
-                            <a href="#"><img src="{{ asset("template/images/logo-2.png") }}" alt="Logo"></a>
+                            <a href="#"><img src="{{ asset("template/images/logo-alumni.png") }}" style="width: 120px" alt="Logo"></a>
                         </div>
-                        <p>Gravida nibh vel velit auctor aliquetn quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
+                        <p>IKATAN ALUMNI SMAN 6 LUBUKLINGGAU</p>
                         <ul class="mt-20">
                             <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>

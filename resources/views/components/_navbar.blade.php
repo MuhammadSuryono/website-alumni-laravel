@@ -41,7 +41,7 @@
                     <div class="right-icon text-right">
                         <ul>
                             <li><a href="#" id="search"><i class="fa fa-search"></i></a></li>
-                            <li><a href="#"><i class="fa fa-user-secret"></i></a></li>
+                            <li><a href="/auth/login"><i class="fa fa-user-secret"></i></a></li>
                         </ul>
                     </div> <!-- right icon -->
                 </div>
