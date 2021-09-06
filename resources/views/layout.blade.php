@@ -14,7 +14,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <!--====== Favicon Icon ======-->
-{{--        <link rel="shortcut icon" href="template/images/favicon.png" type="image/png">--}}
+        <link rel="shortcut icon" href="{{ asset("template/images/logo-alumni.png") }}" type="image/png">
 
         <!--====== Slick css ======-->
         <link rel="stylesheet" href="{{ asset("template/css/slick.css") }}">

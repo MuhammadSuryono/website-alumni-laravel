@@ -4,8 +4,8 @@
             <div class="row no-gutters">
                 <div class="col-lg-11 col-md-10 col-sm-9 col-9">
                     <nav class="navbar navbar-expand-lg">
-                        <a class="navbar-brand" href="index-4.html">
-                            <img src="{{ asset("template/images/logo-2.png") }}" alt="Logo">
+                        <a class="navbar-brand" href="/">
+                            <img src="{{ asset("template/images/logo-alumni.png") }}" style="width: 100px" alt="Logo">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="icon-bar"></span>
