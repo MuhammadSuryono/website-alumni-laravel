@@ -16,10 +16,10 @@
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a class="active" href="index-2.html">Home</a>
+                                    <a class="active" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="about.html">Tentang Kami</a>
+                                    <a href="/about">Tentang Kami</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="events.html">Kegiatan</a>

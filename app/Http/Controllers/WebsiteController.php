@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-class HomeController extends Controller
+class WebsiteController extends Controller
 {
     public function home() {
         $dataBanner = [
@@ -13,6 +13,10 @@ class HomeController extends Controller
               "readMore" => "#"
           ]
         ];
-        return view("home.home", ["banners" => $dataBanner]);
+        return view("home.index", ["banners" => $dataBanner]);
+    }
+
+    public function about() {
+        return view("about.index", ["page" => "Tentang Kami"]);
     }
 }
