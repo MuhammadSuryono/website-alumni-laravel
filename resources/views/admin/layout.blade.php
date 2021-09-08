@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="{{ asset("template/admin/plugins/overlayScrollbars/css/OverlayScrollbars.min.css") }}">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ asset("template/admin/dist/css/adminlte.min.css") }}">
+    <link rel="stylesheet" href="{{ asset("template/admin/plugins/fullcalendar/main.css") }}" >
+    @hasSection("css")
+        @yield("css")
+    @endif
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
@@ -81,5 +85,12 @@
 <script src="{{ asset("template/admin/dist/js/demo.js") }}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="{{ asset("template/admin/dist/js/pages/dashboard2.js") }}"></script>
+
+<!-- jQuery UI -->
+<script src="{{ asset("template/admin/plugins/jquery-ui/jquery-ui.min.js") }}"></script>
+
+@hasSection("script")
+    @yield("script")
+@endif
 </body>
 </html>

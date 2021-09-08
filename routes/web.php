@@ -18,3 +18,7 @@ Route::get("/about", [\App\Http\Controllers\WebsiteController::class, 'about'])-
 
 Route::get("/auth/login", [\App\Http\Controllers\Admin\AuthController::class, 'loginPage'])->name("login_page");
 Route::get("/admin/dashboard", [\App\Http\Controllers\Admin\AdminController::class, 'dashboardPage'])->name("dashboard");
+Route::get("/admin/anggota", [\App\Http\Controllers\Admin\AdminController::class, 'anggotaPage'])->name("anggota");
+Route::get("/admin/profile", [\App\Http\Controllers\Admin\AdminController::class, 'profilePage'])->name("profile");
+Route::get("/admin/kegiatan", [\App\Http\Controllers\Admin\AdminController::class, 'eventsPage'])->name("events");
+Route::get("/admin/berita", [\App\Http\Controllers\Admin\AdminController::class, 'newsPage'])->name("news");
